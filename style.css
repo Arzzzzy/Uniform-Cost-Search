@@ -1,0 +1,60 @@
+body {
+  background-color: #ededee;
+}
+.container {
+  margin-top: 50px;
+}
+.result ul {
+  list-style: none;
+  padding: 0;
+}
+.result ul li {
+  margin-bottom: 30px;
+}
+
+.node circle {
+  fill: rgb(168, 163, 241);
+  stroke: #000000;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #8d8d8d;
+  stroke-width: 2px;
+  marker-end: url(#arrowhead);
+}
+
+.link.visited {
+  stroke: rgb(255, 0, 0);
+  stroke-width: 2px;
+}
+
+.label {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  fill: black;
+}
+
+.form-check-input {
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 2px solid #141414; 
+  border-radius: 0.25rem; 
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.form-check-input:checked {
+  background-color: #007bff; 
+  border-color: #007bff;
+}
+
+.form-check-input:hover {
+  border-color: #0056b3; 
+}
